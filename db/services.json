@@ -1,0 +1,38 @@
+[
+    {
+        "serviceType": "HouseOfComics_Daily",
+        "serviceId": "7419",
+        "planId": "HOC_daily",
+        "contentId": -1,
+        "category": -1,
+        "renewalDate": "2014-09-07 16:48:51.0",
+        "graceExpDate": "2014-09-07 16:48:51.0",
+        "suspendExpDate": "2014-09-07 16:48:51.0",
+        "languageId": "en",
+        "status": "A"
+    },
+    {
+        "serviceType": "HouseOfComics_Weekly",
+        "serviceId": "7418",
+        "planId": "HOC_weekly",
+        "contentId": -1,
+        "category": -1,
+        "renewalDate": "2014-09-07 16:48:51.0",
+        "graceExpDate": "2014-09-07 16:48:51.0",
+        "suspendExpDate": "2014-09-07 16:48:51.0",
+        "languageId": "en",
+        "status": "A"
+    },
+    {
+        "serviceType": "HouseOfComics_Monthly",
+        "serviceId": "7417",
+        "planId": "HOC_monthly",
+        "contentId": -1,
+        "category": -1,
+        "renewalDate": "2014-09-07 16:48:51.0",
+        "graceExpDate": "2014-09-07 16:48:51.0",
+        "suspendExpDate": "2014-09-07 16:48:51.0",
+        "languageId": "en",
+        "status": "A"
+    }
+]
