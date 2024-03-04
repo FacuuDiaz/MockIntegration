@@ -9,3 +9,6 @@ runserver:
 
 logs:
 	docker logs -f airtel-mock
+
+pdb:
+	docker attatch airtel-mock
