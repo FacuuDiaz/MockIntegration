@@ -46,7 +46,7 @@ class UserManager:
     def deactivate_service_user(self,msisdn:str,serviceId:str) -> Union[None, HTTPException]:
         for user in self.users:
             if msisdn == user['callingParty']:
-                if [u for u in user['service'] if u['serviceId'] != serviceId]:
+                if [u for u in user['service'] if u['serviceId'] == serviceId]:
                     for service in user['service']:
                         if service['serviceId'] == serviceId: service['status'] = "D"
                     self.save_data()

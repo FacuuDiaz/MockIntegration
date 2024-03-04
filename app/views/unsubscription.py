@@ -19,4 +19,4 @@ class UnsubscriptionXMLView(XMLViewRequest):
 
         users.deactivate_service_user(data['callingParty'],data['serviceId'])
 
-        return self.make_response(data,status_code=204)
+        return self.make_response(data)
